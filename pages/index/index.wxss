@@ -3,3 +3,9 @@
 .btn{
 	margin-top: 100rpx;
 }
+
+.space{
+	border: 1px solid chocolate;
+	height: 2000rpx;
+	margin-top: 100rpx;
+}

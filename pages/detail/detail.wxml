@@ -1,0 +1,5 @@
+<!--pages/detail/detail.wxml-->
+
+<navBar hasBack="{{true}}" bgImg="url(https://6d61-maimai-release-qwnna-1301654981.tcb.qcloud.la/test/1.png?sign=ac16d358a572345e87da58ff64678e8e&t=1591241954)">
+	<view slot="title">Detail</view>
+</navBar>

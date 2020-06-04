@@ -1,7 +1,11 @@
 <!--index.wxml-->
 
 <navBar bgImg="linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%)">
-	<view slot="title">全屏抽屉</view>
+	<view slot="title">Index</view>
 </navBar>
 
-<button class="btn" bindtap="goInfo">点击</button>
+<button class="btn" bindtap="goInfo">Info</button>
+
+<button class="btn" bindtap="godetail">Detail</button>
+
+<view class="space"></view>
