@@ -1,13 +1,5 @@
 <!--pages/indexInfo/indexInfo.wxml-->
 
-<view class="NavBar" style="height:{{NavBarH}}px;">
-    <view class="navBar_content" style="height:{{NavBarH}}px; padding-top:{{StatusBarH}}px">
-        <view class="content_inner_wrapper">
-            <view wx:if="{{showback}}" class="NavBarBack" bindtap="goBack">
-                <text class="iconfont icon-icon-test"></text>
-            </view>
-            <view class="NavBarTitle">微动画</view>
-        </view>
-    </view>
-</view>
-<view style="height:{{NavBarH}}px;"></view>
+<navBar hasBack="{{true}}" bgImg="url(https://6d61-maimai-release-qwnna-1301654981.tcb.qcloud.la/test/4.jpg?sign=6fc93fb23a1e58f8c6468a13ae138821&t=1591237592)">
+	<view slot="title">全屏抽屉</view>
+</navBar>

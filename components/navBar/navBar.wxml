@@ -1,0 +1,15 @@
+<!--components/NavBar/navBar.wxml-->
+
+<view class="NavBar" style="height:{{NavBarH}}px; background-color:{{bgColor}}; background-image:{{bgImg}};">
+    <view class="navBar_content" style="height:{{NavBarH}}px; padding-top:{{StatusBarH}}px;">
+        <view class="content_inner_wrapper" >
+            <view wx:if="{{hasBack}}" class="NavBarBack" bindtap="goBack">
+                <text class="iconfont icon-icon-test"></text>
+            </view>
+            <view class="NavBarTitle">
+				<slot name="title"></slot>
+			</view>
+        </view>
+    </view>
+</view>
+<view style="height:{{NavBarH}}px;"></view>

@@ -8,15 +8,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-		StatusBarH: app.globalData.StatusBarH,
-		NavBarH: app.globalData.NavBarH,
-		MenuButtonPos: app.globalData.MenuButtonPos,
 
-		showback: true
-    },
-
-	goBack() {
-		console.log(11)
 	},
 
 	goInfo() {

@@ -1,2 +1,5 @@
 /**index.wxss**/
 
+.btn{
+	margin-top: 100rpx;
+}

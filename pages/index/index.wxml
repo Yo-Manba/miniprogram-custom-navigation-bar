@@ -1,15 +1,7 @@
 <!--index.wxml-->
 
-<view class="NavBar" style="height:{{NavBarH}}px;">
-    <view class="navBar_content" style="height:{{NavBarH}}px; padding-top:{{StatusBarH}}px">
-        <view class="content_inner_wrapper">
-            <view wx:if="{{showback}}" class="NavBarBack" bindtap="goBack">
-                <text class="iconfont icon-icon-test"></text>
-            </view>
-            <view class="NavBarTitle">微动画</view>
-        </view>
-    </view>
-</view>
-<view style="height:{{NavBarH}}px;"></view>
+<navBar bgImg="linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%)">
+	<view slot="title">全屏抽屉</view>
+</navBar>
 
-<view bindtap="goInfo">点击</view>
+<button class="btn" bindtap="goInfo">点击</button>
