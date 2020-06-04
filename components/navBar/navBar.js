@@ -25,6 +25,10 @@ Component({
 		bgImg: {
 			type: [String],
 			default: "linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%)"
+		},
+		position: {
+			type: [String],
+			default: "fixed"
 		}
 	},
 

@@ -1,7 +1,7 @@
 /**index.wxss**/
 
 .btn{
-	margin-top: 100rpx;
+	margin-top: 10rpx;
 }
 
 .space{

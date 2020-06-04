@@ -1,0 +1,38 @@
+<!--pages/drawer/drawer.wxml-->
+
+<view class="windowPage {{showDrawer ? 'show' : '' }}">
+    <navBar hasBack="{{true}}" bgImg="linear-gradient(147deg, #FFE53B 0%, #FF2525 74%)" position="relative">
+        <view slot="title">Drawer</view>
+    </navBar>
+
+    <swiper class="scrollView" style="height: calc(100% - {{NavBarH}}px);" vertical>
+        <swiper-item>
+            <scroll-view scroll-y class="scrollView">
+                <button class="drawerBtn" bindtap="showDrawer">打开抽屉</button>
+                <view class="list">
+                    <view wx:for="{{60}}" wx:key="idnex">{{index}}</view>
+                </view>
+                <button class="drawerBtn" bindtap="showDrawer">打开抽屉</button>
+                <view style="height: 1px;"></view>
+            </scroll-view>
+        </swiper-item>
+    </swiper>
+
+
+</view>
+
+<view class="mask {{showDrawer ? 'show' : ''}}" bindtap="closeDrawer">
+	<text class="iconfont icon-jiantouarrow476"></text>
+</view>
+
+<swiper class="drawerPage {{showDrawer ? 'show' : ''}} innerSwiper" vertical>
+    <swiper-item>
+        <scroll-view scroll-y class="scrollView">
+            <view style="height: 50rpx;"></view>
+            <view class="list">
+                <view wx:for="{{60}}" wx:key="idnex">{{index}}</view>
+            </view>
+            <view style="height: 50rpx;"></view>
+        </scroll-view>
+    </swiper-item>
+</swiper>
