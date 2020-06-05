@@ -1,8 +1,6 @@
 <!--index.wxml-->
 
-<navBar bgImg="linear-gradient(282deg, #52ACFF 25%, #FFE32C 100%)">
-	<view slot="title">Index</view>
-</navBar>
+<navBar title="Index" bgImg="linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)"></navBar>
 
 <button class="btn" bindtap="goInfo">Info</button>
 

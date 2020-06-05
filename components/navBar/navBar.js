@@ -15,20 +15,28 @@ Component({
 	 */
 	properties: {
 		hasBack: {
-			type: [Boolean, String],
-			default: false
+			type: Boolean,
+			value: false
+		},
+		title: {
+			type: String,
+			value: "标题"
+		},
+		color: {
+			type: String,
+			value: "#000"
 		},
 		bgColor: {
-			type: [String],
-			default: "#fff"
+			type: String,
+			value: "#fff"
 		},
 		bgImg: {
-			type: [String],
-			default: "linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%)"
+			type: String,
+			value: ""
 		},
 		position: {
-			type: [String],
-			default: "fixed"
+			type: String,
+			value: "fixed"
 		}
 	},
 

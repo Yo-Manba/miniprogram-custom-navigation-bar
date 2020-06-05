@@ -1,19 +1,17 @@
 <!--components/NavBar/navBar.wxml-->
 
 <!-- 整体导航栏 -->
-<view class="NavBar" style="height:{{NavBarH}}px; background-color:{{bgColor}}; background-image:{{bgImg}}; position: {{position}}">
+<view class="NavBar" style="height:{{NavBarH}}px; background-color: {{bgColor}}; background-image:{{bgImg}}; position: {{position}}">
     <!-- 去除状态栏后的内容区 -->
     <view class="navBar_content" style="height:{{NavBarH}}px; padding-top:{{StatusBarH}}px;">
         <!-- 内容区包裹 -->
         <view class="content_inner_wrapper">
             <!-- 返回Icon -->
-            <view wx:if="{{hasBack}}" class="NavBarBack" bindtap="goBack">
+            <view wx:if="{{hasBack}}" class="NavBarBack" style="color: {{color}};" bindtap="goBack">
                 <text class="iconfont icon-icon-test"></text>
             </view>
             <!-- 标题 -->
-            <view class="NavBarTitle">
-                <slot name="title"></slot>
-            </view>
+            <view class="NavBarTitle" style="color: {{color}};">{{title}}</view>
         </view>
     </view>
 </view>
