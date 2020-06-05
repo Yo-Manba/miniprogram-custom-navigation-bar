@@ -33,10 +33,6 @@ Component({
 		bgImg: {
 			type: String,
 			value: ""
-		},
-		position: {
-			type: String,
-			value: "fixed"
 		}
 	},
 

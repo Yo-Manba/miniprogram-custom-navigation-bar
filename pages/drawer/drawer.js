@@ -12,6 +12,11 @@ Page({
 
 	},
 
+	// 触发子组件打开抽屉
+	openDrawer(e) {
+		this.selectComponent('#Drawer').showDrawer(e);
+	},
+
 	/**
 	 * 生命周期函数--监听页面加载
 	 */

@@ -1,3 +1,21 @@
 <!--pages/drawer/drawer.wxml-->
 
-<Drawer hasBack="{{false}}"></Drawer>
+<Drawer 
+	id="Drawer" 
+	navBack="{{true}}" 
+	navTitle="Drawer" 
+	navColor="#fff" 
+	navBgColor="#000" 
+	navBgImg="linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)"
+	pageBgImg="url(https://6d61-maimai-release-qwnna-1301654981.tcb.qcloud.la/test/4.jpg?sign=e87310f72e2c03cebc554cb4c1499053&t=1591349285)"
+	>
+	<view slot="mainPage">
+		<view>1321</view>
+		<view>1321</view>
+		<view>1321</view>
+		<button bindtap="openDrawer">点击</button>
+	</view>
+	<view slot="drawerPage">
+		<view wx:for="{{60}}" wx:key="idnex">{{index}}</view>
+	</view>
+</Drawer>
