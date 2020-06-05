@@ -1,5 +1,3 @@
 <!--pages/indexInfo/indexInfo.wxml-->
 
-<navBar hasBack="{{true}}" bgImg="url(https://6d61-maimai-release-qwnna-1301654981.tcb.qcloud.la/test/4.jpg?sign=6fc93fb23a1e58f8c6468a13ae138821&t=1591237592)">
-	<view slot="title">Info</view>
-</navBar>
+<NavBar hasBack="{{true}}" title="Info" bgImg="url(https://6d61-maimai-release-qwnna-1301654981.tcb.qcloud.la/test/4.jpg?sign=6fc93fb23a1e58f8c6468a13ae138821&t=1591237592)"></NavBar>

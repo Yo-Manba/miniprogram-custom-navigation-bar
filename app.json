@@ -13,7 +13,8 @@
 		"navigationStyle": "custom"
 	},
 	"usingComponents": {
-		"navBar": "/components/navBar/navBar"
+		"NavBar": "/components/NavBar/NavBar",
+		"Drawer": "/components/Drawer/Drawer"
 	},
 	"style": "v2",
 	"sitemapLocation": "sitemap.json"

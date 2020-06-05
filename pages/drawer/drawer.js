@@ -1,6 +1,6 @@
 // pages/drawer/drawer.js
 
-const app = getApp();
+
 
 Page({
 
@@ -8,23 +8,8 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-		NavBarH: app.globalData.NavBarH,
+		
 
-		showMask: false
-	},
-
-	showDrawer(e) {
-		this.setData({
-			showDrawer: true,
-			showMask: true
-		})
-	},
-
-	closeDrawer() {
-		this.setData({
-			showDrawer: false,
-			showMask: false
-		})
 	},
 
 	/**
