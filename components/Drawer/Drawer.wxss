@@ -20,17 +20,6 @@
     display: none;
 }
 
-.innerSwiper {
-    box-sizing: border-box;
-    height: 100%;
-}
-
-.scrollView {
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-}
-
 .windowPage {
     position: fixed;
     width: 100vw;
@@ -44,6 +33,17 @@
     left: 85vw;
     box-shadow: 0 0 60rpx rgba(0, 0, 0, 0.2);
     transform-origin: 0;
+}
+
+.innerSwiper {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.scrollView {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
 
 .drawerBtn {
