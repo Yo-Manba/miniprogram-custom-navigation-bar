@@ -3,7 +3,8 @@
 		"pages/index/index",
 		"pages/indexInfo/indexInfo",
 		"pages/detail/detail",
-		"pages/drawer/drawer"
+		"pages/drawer/drawer",
+		"pages/test/test"
 	],
 	"window": {
 		"backgroundTextStyle": "light",

@@ -24,11 +24,11 @@ Component({
 		},
 		color: {
 			type: String,
-			value: "#fff"
+			value: "#373737"
 		},
 		bgColor: {
 			type: String,
-			value: "#f5f5f5"
+			value: "#fff"
 		},
 		bgImg: {
 			type: String,

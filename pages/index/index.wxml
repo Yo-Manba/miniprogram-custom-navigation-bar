@@ -7,3 +7,5 @@
 <button class="btn" bindtap="godetail">Detail</button>
 
 <button class="btn" bindtap="goDrawer">Drawer</button>
+
+<button class="btn" bindtap="goTest">Test</button>

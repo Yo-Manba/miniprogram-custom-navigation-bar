@@ -1,0 +1,5 @@
+<!--pages/test/test.wxml-->
+
+<NavBar hasBack title="Test" />
+
+<view wx:for="{{60}}" wx:key="idnex">{{index}}</view>
