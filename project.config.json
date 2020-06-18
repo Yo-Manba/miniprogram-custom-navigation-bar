@@ -60,6 +60,7 @@
 					"id": -1,
 					"name": "pages/drawer/drawer",
 					"pathName": "pages/drawer/drawer",
+					"query": "",
 					"scene": null
 				}
 			]
